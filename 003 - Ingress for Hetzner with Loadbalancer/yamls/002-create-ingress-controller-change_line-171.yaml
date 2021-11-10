@@ -148,7 +148,8 @@ spec:
           args:
             - /nginx-ingress-controller
             - --configmap=$(POD_NAMESPACE)/nginx-configuration
-            - --default-backend-service=kube-system/default-http-backend
+#            - --default-backend-service=kube-system/default-http-backend
+            - --default-backend-service=default/lpdf-frontend-cluster-ip-service
             - --publish-service=ingress-space/ingress-controller
           env:
             - name: POD_NAME
