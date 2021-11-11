@@ -169,7 +169,7 @@ kind: Service
 metadata:
   annotations:
     service.beta.kubernetes.io/do-loadbalancer-enable-proxy-protocol: "true"
-    service.beta.kubernetes.io/do-loadbalancer-hostname: d3v.to
+    service.beta.kubernetes.io/do-loadbalancer-hostname: lpdf.ddnsfree.com
     load-balancer.hetzner.cloud/location: nbg1
     load-balancer.hetzner.cloud/network-zone: eu-central
     load-balancer.hetzner.cloud/name: load-balancer-1
